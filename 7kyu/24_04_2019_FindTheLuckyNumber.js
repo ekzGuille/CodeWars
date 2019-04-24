@@ -1,8 +1,8 @@
-// 15/04/2019
+// 24/04/2019
 // https://www.codewars.com/kata/find-the-lucky-numbers
 
 var filterLucky = x => {
-    return 'lucky numbers';
+    return x.filter(el => `${el}`.indexOf(7) > -1);
 }
 
 console.log(filterLucky([1, 2, 3, 4, 5, 6, 7, 68, 69, 70, 15, 17]), [7, 70, 17]);
